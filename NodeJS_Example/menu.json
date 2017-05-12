@@ -1,0 +1,34 @@
+{
+"options":[
+       { "id":"Size",
+        "choice":[
+            {"sz": "small", "cost": 6 },
+            {"sz": "medium", "cost": 8 },
+            {"sz": "large", "cost": 10 }
+            ]
+        },
+        {"id":"Crust Type",
+        "choice":[
+            "thin",
+            "regular",
+            "glutten-free"
+            ]
+        },
+
+        {"id":"Toppings - $1.00 for each extra topping added",
+        "choice":[
+            "pepperoni",
+            "mushrooms",
+            "onions",
+            "tomatoes",
+            "green peppers",
+            "extra cheese",
+            "beef",
+            "ham",
+            "pineapple",
+            "spinach"
+            ]
+        }
+        
+ ]
+}

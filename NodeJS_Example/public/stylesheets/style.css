@@ -1,0 +1,64 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+ul{
+  list-style-type:none;
+}
+ul li{
+  width:150px;
+  padding:20px;
+  float: left;
+  border:2px solid silver;
+  border-radius:8px 8px 0 0;
+}
+li a {
+  font-size:1.5em;
+  text-decoration:none;
+  text-align:center;
+  color: cornflowerblue;
+}
+li.active a:link {
+
+
+}
+li a:visited {
+
+
+}
+li a:hover {
+
+
+}
+
+li.active a {
+  color: white;
+
+}
+li.active{
+  background:cornflowerblue;
+  border-color:cornflowerblue;
+}
+
+h2{
+  margin-top:120px;
+  width:100%;
+  clear:both;
+}
+table {
+  width:100%; 
+}
+table, th, td {
+  border: 1px solid silver;
+  border-collapse: collapse;
+}
+td{
+  width:250px;
+  text-align:center;
+  padding:1% 10px;
+}
+th{
+  background-color:silver;
+  color:white;
+  padding:5px 0;
+}
